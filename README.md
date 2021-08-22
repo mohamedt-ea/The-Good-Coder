@@ -1,2 +1,2 @@
 # The Good Coder
-![](/The-Good-Coder/images/The-Good-Doctor.jpg)
+![Shon morphy](https://github.com/Kottoz/The-Good-Coder/blob/main/images/The-Good-Doctor.jpg)
