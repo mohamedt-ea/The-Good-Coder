@@ -1,6 +1,7 @@
 """
 Python program for Bitonic Sort.
 Notes:
+
 - bitonic works only when size of input is a power of 2 (4, 8, 16, 32, ...)
 - bitonic is a series of numbers that first increasing, and then decreasing.
 - Increasing series is also bitonic, as the decrerasing part is embty, Decreasing also.
@@ -19,6 +20,8 @@ Worst-case space complexity	O ( n log 2 ⁡ ( n ) )  non-parallel
 from typing import List
 
 #compare and swap
+
+
 def comp_and_swap(array: List[int], index1: int, index2: int, direction: int):
     """
         Compare the value at given index1 and index2 of the array and swap them as per
@@ -48,7 +51,9 @@ def comp_and_swap(array: List[int], index1: int, index2: int, direction: int):
     ):
         array[index1], array[index2] = array[index2], array[index1]
 
-#bitonic merge
+# bitonic merge
+
+
 def bitonic_merge(array: List[int], low: int, length: int, direction: int):
     """
         It recursively sorts a bitonic sequence in ascending order, if direction = 1, and in
@@ -65,7 +70,6 @@ def bitonic_merge(array: List[int], low: int, length: int, direction: int):
         >>> print(arr)
         [42, 12, 1, -21]
     """
-    
-    
 
-#bitonic sort
+
+# bitonic sort
