@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "D:\\Education\\The-Good-Coder\test\\async_touts\\async_env\\Scripts\\python.exe",
+    "python.languageServer": "Pylance",
+
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "jupyter.jupyterServerType": "local"
+    
+}

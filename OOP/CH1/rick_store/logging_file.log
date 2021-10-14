@@ -1,0 +1,15 @@
+08:26:14,147 root ERROR Zero or negative price is invalid input for price
+Traceback (most recent call last):
+  File ".\store.py", line 32, in setPrice
+    raise ValueError
+ValueError
+08:27:15,427 root ERROR Zero or negative price is invalid input for price
+Traceback (most recent call last):
+  File ".\store.py", line 31, in setPrice
+    raise ValueError
+ValueError
+09:17:44,943 root ERROR Zero or negative price is invalid input for price
+Traceback (most recent call last):
+  File ".\store.py", line 33, in setPrice
+    raise ValueError
+ValueError
